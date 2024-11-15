@@ -10,6 +10,8 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Need Blood'),
+          titleSpacing: 0,
+          centerTitle: true,
           backgroundColor: Colors.red,
           actions: [
             IconButton(
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
                 radius: 60,
                 backgroundColor: Colors.grey[700],
                 child: Icon(
-                  Icons.bloodtype,
+                  Icons.bloodtype_outlined,
                   size: 50,
                   color: Colors.red,
                 ),
